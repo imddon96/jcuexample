@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
 @Slf4j
 public class ReentrantLockTest {
 
-
+    // 可重入锁
     public static class ReentrantLockExample01{
         public static final ReentrantLock lock = new ReentrantLock();
 

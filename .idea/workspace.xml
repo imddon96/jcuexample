@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="881f87aa-15d2-46e8-b39c-fda93ef798c3" name="Default Changelist" comment="" />
+    <list default="true" id="881f87aa-15d2-46e8-b39c-fda93ef798c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/locks/ReentrantLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/locks/ReentrantLockTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/CompareLatchAndBarrier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/semaphore/SemaphoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/locks/ReentrantLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="243">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="class#ReentrantLockExample01#0;class#ReentrantLockTest#0" />
               </folding>
@@ -158,6 +152,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -198,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/imddon/jcu/TestForThread.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/CompareLatchAndBarrier.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/semaphore/SemaphoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/locks/ReadWriteLockTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/locks/ReentrantLockTest.java" />
       </list>
     </option>
@@ -230,6 +228,7 @@
     <option name="width" value="1440" />
     <option name="height" value="824" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -313,6 +312,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jcu" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jcuexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcuexample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jcu" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,55 +331,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jcu" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="locks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jcuexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="jcuexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="jcuexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jcuexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jcuexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jcuexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jcuexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="locks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -389,6 +348,7 @@
     <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
     <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="false" />
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="A&#9;FILE&#9;file:///Users/imddon/Codes/jcuexample/src/main/java/A.java&#10;Cycli&#9;PSI&#9;JAVA://java.util.concurrent.CyclicBarrier&#10;update project&#9;ACTION&#9;Maven.UpdateFolders&#10;AtomicS&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicStampedReference" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -530,7 +490,7 @@
       <workItem from="1556671431873" duration="1282000" />
       <workItem from="1557716946704" duration="564000" />
       <workItem from="1557717593833" duration="341000" />
-      <workItem from="1558108769054" duration="13790000" />
+      <workItem from="1558108769054" duration="14361000" />
     </task>
     <servers />
   </component>
@@ -567,7 +527,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81567000" />
+    <option name="totallyTimeSpent" value="82138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,7 +557,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -619,13 +579,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2706">
-          <caret line="157" column="47" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4312">
@@ -1014,10 +967,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/locks/ReadWriteLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imddon/jcu/utils/locks/ReentrantLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state relative-caret-position="243">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="class#ReentrantLockExample01#0;class#ReentrantLockTest#0" />
           </folding>

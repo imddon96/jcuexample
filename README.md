@@ -1,4 +1,3 @@
 ===========
 # jcuexample
------------------
 ## Relevant Articles:
